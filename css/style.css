@@ -1,0 +1,49 @@
+h1{
+    font-family:  "Pacifico";
+    font-size: 50px;
+    color: #352e28;
+    position: relative;
+    z-index: 999999;
+}
+ header#home h1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: 350ms;
+    z-index:-2;
+
+}
+
+header#home h1:hover::before {
+    height: 50%;
+}
+h2{
+    font-family:  "Righteous", sans-serif;
+}
+p,h3,h4,h5,h6{
+    font-family:  "PT Sans Caption", sans-serif;
+}
+/* --------------------------------------------- */
+header#home{
+    background-color: #f7ecde;
+    
+}
+.bookmark-body h2 {
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-submit {
+    color: #fff;
+    background-color: #d1512d;
+}
+.btn:hover {
+    border-color: black;
+
+}
+
